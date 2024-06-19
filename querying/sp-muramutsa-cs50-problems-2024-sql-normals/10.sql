@@ -1,0 +1,3 @@
+SELECT COUNT(DISTINCT "latitude")
+FROM "normals"
+WHERE "5m" IS NOT NULL;
